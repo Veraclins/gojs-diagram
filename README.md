@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs the app dependencies
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -44,3 +48,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## Saving and Sharing Changes on a Diagram
+
+All the important details of a diagram are contained in the diagram model. This diagram model can be save in a data source (e.g a persistent database) and this can be exposed over an API and easily shared. The API can also be configured to sync changes as they are persisted to the data source making it possible to see changes by other users in realtime.
